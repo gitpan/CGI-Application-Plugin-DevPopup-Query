@@ -1,13 +1,13 @@
 package CGI::Application::Plugin::DevPopup::Query;
 
-# $Id: Query.pm 14 2009-12-04 12:47:11Z stro $
+# $Id: Query.pm 15 2009-12-07 10:52:17Z stro $
 
 use strict;
 use warnings;
 
 use base qw/Exporter/;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 sub import {
     my $c = scalar caller;
@@ -53,9 +53,17 @@ CGI::Application::Plugin::DevPopup::Query - show CGI query in DevPopup window
     The rest of your application follows
     ...
 
+=head1 DESCRIPTION
+
+This module is a plugin for L<CGI::Application::Plugin::DevPopup>.
+Whenever used, it creates a "CGI Query" section in the DevPopup output. This
+section contains a list of CGI query parameters passed to your CGI::Application.
+
+See L<CGI::Application/query()> and L<CGI> for more information about query parameters.
+
 =head1 VERSION
 
-1.00
+1.01
 
 =head1 SEE ALSO
 
