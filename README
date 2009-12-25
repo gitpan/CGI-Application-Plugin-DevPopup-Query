@@ -9,8 +9,17 @@ SYNOPSIS
         The rest of your application follows
         ...
 
+DESCRIPTION
+    This module is a plugin for CGI::Application::Plugin::DevPopup. Whenever
+    used, it creates a "CGI Query" section in the DevPopup output. This
+    section contains a list of CGI query parameters passed to your
+    CGI::Application.
+
+    See "query()" in CGI::Application and CGI for more information about
+    query parameters.
+
 VERSION
-    1.00
+    1.01
 
 SEE ALSO
     CGI::Application::Plugin::DevPopup, CGI::Application
