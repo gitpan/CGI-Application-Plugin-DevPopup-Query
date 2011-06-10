@@ -1,13 +1,13 @@
 #!/usr/env perl
 
-# $Id: t0.t 14 2009-12-04 12:47:11Z stro $
+# $Id: t0.t 30 2011-06-10 04:48:54Z stro $
 
 use strict;
 use warnings;
 
 BEGIN {
-	use Test;
-	plan('tests' => 1);
+    use Test;
+    plan('tests' => 1);
 }
 
 require CGI::Application::Plugin::DevPopup::Query; # require, no use -- import wouldn't work this way

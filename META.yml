@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               CGI-Application-Plugin-DevPopup-Query
-version:            1.02
+version:            1.03
 abstract:           Show CGI query in DevPopup window
 author:
     - Serguei Trouchelle <stro@cpan.org>
